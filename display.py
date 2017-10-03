@@ -75,7 +75,7 @@ while True:
                 shoot_table()
 
         # occasionally output the whole random file from the current dir
-        if weighted_choice([(True, 1), (False, 9)]):
+        if weighted_choice([(True, 0.5), (False, 9.5)]):
             shoot_file()
 
         time.sleep(random.random()*0.3)
