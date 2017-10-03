@@ -51,6 +51,7 @@ coverage.xml
 *.pot
 
 # Django stuff:
+*.log*
 local_settings.py
 
 # Flask stuff:
@@ -98,3 +99,5 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+.DS_Store

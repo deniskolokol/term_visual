@@ -1,24 +1,9 @@
 #!/usr/local/bin/python
 # -*- coding: utf-8 -*-
 import os
-import random
-from bisect import bisect
-
 import time
 
-from utils import shoot
-
-
-def weighted_choice(choices):
-    values, weights = zip(*choices)
-    total = 0
-    cum_weights = []
-    for w in weights:
-        total += w
-        cum_weights.append(total)
-    x = random.random() * total
-    i = bisect(cum_weights, x)
-    return values[i]
+from utils import shoot, weighted_choice, random
 
 
 def get_stat(data, labels):

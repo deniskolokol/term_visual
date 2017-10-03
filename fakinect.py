@@ -17,7 +17,7 @@ import time
 import random
 
 
-with open('kinect_log.txt', 'r+') as f:
+with open('osceleton.trace', 'r+') as f:
     lines = f.readlines()
     f.close()
 
