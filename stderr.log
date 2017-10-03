@@ -1,0 +1,1000 @@
+libusb: 2408.772333 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.772341 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.772598 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.772601 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.776109 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.776284 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.776287 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.776295 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.776552 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.776554 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.780113 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.780153 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.780155 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.780163 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.780831 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.780834 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.784240 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.784765 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.784768 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.784776 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.786246 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.786255 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.792240 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.792273 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.792455 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.792458 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.792466 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.792535 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.792537 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.792544 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.792774 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.792777 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.793061 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.793063 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.796120 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.796304 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.796306 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.796314 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.796571 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.797014 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.800333 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.803919 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.803922 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.803929 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.804112 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.804519 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.804521 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.804529 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.804801 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.804804 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.805278 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.805282 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.808134 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.808175 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.808178 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.808185 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.808443 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.808446 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.812107 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.812146 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.812148 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.812156 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.812837 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.812841 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.816138 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.816393 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.816397 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.816405 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.816937 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.816941 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.823418 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.823486 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.823489 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.823496 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.823855 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.823871 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.824179 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.826099 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.826101 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.826132 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.826725 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.826729 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.828124 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.828171 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.828174 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.828182 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.828811 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.828815 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.832135 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.832398 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.832402 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.832410 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.833498 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.833502 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.836145 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.836433 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.836437 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.836446 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.837535 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.837538 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.840135 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.840437 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.840441 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.840450 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.841533 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.841537 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.844137 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.844406 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.844411 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.844420 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.845506 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.845510 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.848127 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.848404 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.848408 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.848416 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.849500 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.849503 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.852188 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.852237 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.852239 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.852247 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.852967 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.852971 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.859712 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.859933 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.859938 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.859946 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.860137 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.860355 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.860359 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.860509 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.860512 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.860535 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.861328 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.861332 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.864152 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.864234 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.864236 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.864244 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.864616 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.864619 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.868115 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.868346 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.868348 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.868356 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.868656 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.868659 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.872118 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.872204 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.872207 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.872214 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.872606 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.872610 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.876189 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.876233 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.876235 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.876243 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.876626 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.876630 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.880112 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.880325 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.880328 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.880337 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.880616 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.880620 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.884133 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.884361 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.884364 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.884372 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.885176 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.885181 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.888281 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.891216 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.891218 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.891227 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.891474 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.891478 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.892129 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.892234 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.892237 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.892244 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.892803 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.892806 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.896117 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.896190 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.896192 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.896200 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.896431 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.896435 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.900114 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.900153 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.900156 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.900163 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.900801 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.900805 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.904142 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.904184 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.904186 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.904194 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.904767 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.904770 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.908107 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.908147 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.908150 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.908157 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.908731 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.908735 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.912113 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.912158 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.912160 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.912168 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.912400 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.912403 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.916130 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.916172 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.916174 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.916182 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.916837 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.916840 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.920189 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.923400 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.923403 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.923413 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.923921 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.923925 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.924136 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.924178 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.924180 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.924714 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.924974 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.924977 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.928115 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.928173 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.928175 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.928183 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.928511 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.928515 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.933664 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.936294 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.940107 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.943361 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.943364 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.943373 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.943637 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.943640 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.944116 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.945235 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.945237 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.945244 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.945479 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.945481 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.945989 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.945991 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.945998 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.946053 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.946055 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.946062 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.946292 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.946295 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.946551 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.946554 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.948122 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.948164 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.948166 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.948173 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.948554 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.948558 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.952132 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.952201 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.952203 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.952211 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.953422 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.953426 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.956167 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.960185 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.961209 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.961213 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.961222 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.961290 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.961292 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.961299 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.962361 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.962365 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.962706 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.962709 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.964143 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.964205 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.964207 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.964215 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.964908 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.964912 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.968132 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.968205 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.968207 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.968217 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.968918 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.968923 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.972130 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.972192 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.972195 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.972203 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.972949 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.972952 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.976125 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.976185 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.976188 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.976196 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.976768 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.976773 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.980112 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.980195 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.980198 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.980206 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.980850 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.980854 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.984114 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.984186 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.984189 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.984197 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.984788 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.984792 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.988229 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.991661 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.991664 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.991674 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.991982 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.991986 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.992163 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.992385 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.992387 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.992395 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.992738 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.992741 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2408.996114 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2408.996153 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2408.996155 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2408.996271 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2408.996704 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2408.996707 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.000147 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.000189 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.000192 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.000200 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.000563 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.000566 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.004108 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.004164 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.004166 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.004174 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.004593 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.004597 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.008135 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.008348 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.008350 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.008358 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.008673 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.008676 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.012113 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.012159 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.012161 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.012169 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.012413 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.012417 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.016107 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.016181 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.016183 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.016191 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.016860 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.016863 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.020392 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.023349 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.023352 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.023361 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.023908 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.023912 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.024128 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.024208 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.024210 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.024218 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.024653 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.024657 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.028110 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.028153 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.028156 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.028164 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.028388 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.028392 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.032140 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.032181 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.032184 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.032191 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.032762 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.032766 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.036111 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.036154 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.036156 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.036164 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.036402 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.036405 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.040245 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.040987 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.040990 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.040998 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.041664 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.041669 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.044134 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.044176 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.044178 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.044186 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.044767 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.044771 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.048112 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.048183 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.048186 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.048193 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.048830 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.048833 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.052109 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.052166 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.052168 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.052176 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.052364 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.052367 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.056298 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.059514 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.059517 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.059547 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.060135 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.061032 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.061478 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.064284 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.068106 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.072134 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.077540 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.077572 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.077575 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.077582 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.077648 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.077650 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.077657 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.078313 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.078315 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.078322 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.078372 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.078374 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.078381 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.078575 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.078577 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.078585 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.078681 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.078686 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.078978 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.078981 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.079230 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.079233 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.079482 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.079485 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.079733 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.079735 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.081087 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.081149 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.081152 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.081160 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.081799 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.081803 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.084140 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.084209 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.084212 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.084220 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.084859 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.084864 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.088252 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.090546 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.090549 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.090559 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.091278 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.091281 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.092154 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.093828 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.093831 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.093841 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.094575 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.094579 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.096149 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.096213 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.096216 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.096224 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.096916 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.096920 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.100131 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.100215 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.100218 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.100225 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.100794 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.100798 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.104111 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.104155 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.104157 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.104165 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.104747 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.104750 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.108119 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.108184 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.108186 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.108194 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.108704 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.108708 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.112142 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.112235 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.112237 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.112245 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.112922 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.112926 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.116112 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.116190 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.116192 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.116200 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.116593 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.116595 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.120444 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.123570 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.123573 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.123582 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.124138 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.124206 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.124210 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.124284 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.124286 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.124294 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.124623 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.124626 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.128123 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.128415 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.128417 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.128425 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.128961 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.128964 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.132155 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.132412 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.132417 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.132425 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.132684 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.132687 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.136122 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.136188 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.136190 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.136198 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.136548 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.136550 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.140133 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.140202 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.140204 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.140212 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.140769 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.140772 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.144106 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.144194 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.144196 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.144204 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.144836 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.144839 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.148107 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.148161 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.148163 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.148171 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.148420 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.148423 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.152112 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.152154 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.152156 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.152163 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.156194 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.158910 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.158919 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.159747 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.159761 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.159781 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.160154 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.160317 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.160321 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.160462 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.160464 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.160483 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.160909 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.160912 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.164126 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.164186 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.164189 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.164197 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.164842 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.164846 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.168136 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.168209 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.168211 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.168219 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.168940 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.168943 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.172133 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.172196 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.172199 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.172207 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.172899 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.172903 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.176149 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.176223 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.176225 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.176233 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.176920 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.176925 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.180135 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.180195 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.180197 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.180205 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.181159 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.181164 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.184123 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.184188 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.184190 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.184198 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.189507 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.192166 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.192300 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.192304 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.196122 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.198502 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.198504 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.198513 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.198729 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.198732 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.199097 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.199099 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.199107 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.199897 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.199899 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.199907 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.200140 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.201367 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.201370 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.201378 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.202520 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.202523 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.202859 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.202862 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.203148 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.203151 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.204169 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.204291 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.204296 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.204314 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.204832 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.204835 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.208160 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.208245 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.208248 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.208256 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.208517 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.208519 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.212157 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.212240 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.212244 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.212261 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.212699 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.212702 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.216144 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.216228 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.216233 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.216250 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.216794 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.216797 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.223310 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.223397 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.223400 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.223409 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.224031 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.224035 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.224250 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.224293 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.224295 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.224303 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.224954 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.224957 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.228144 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.228211 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.228214 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.228222 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.229170 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.229175 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.232135 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.232200 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.232203 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.232211 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.234909 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.234914 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.236121 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.236183 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.236186 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.236194 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.237028 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.237033 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.240129 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.240228 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.240231 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.240239 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.240615 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.240619 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.244110 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.244165 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.244168 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.244176 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.244398 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.244401 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.248114 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.248196 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.248199 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.248206 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.248495 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.248499 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.252116 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.252194 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.252196 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.252280 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.252734 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.252738 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.256464 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.258711 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.258714 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.258725 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.259921 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.259925 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.260165 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.260239 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.260242 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.260249 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.260517 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.260520 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.264115 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.264216 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.264218 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.264226 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.264628 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.264632 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.268108 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.268183 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.268185 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.268193 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.268485 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.268488 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.272111 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.272169 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.272171 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.272179 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.272437 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.272440 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.276112 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.276152 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.276155 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.276162 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.276495 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.276499 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.280110 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.280149 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.280151 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.280248 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.280506 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.280509 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.284105 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.284175 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.284177 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.284207 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.284883 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.284888 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.291589 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.291655 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.291658 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.291666 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.292147 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.292260 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.292262 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.292270 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.292749 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.292754 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.293063 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.293066 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.296134 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.296203 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.296205 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.296214 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.296497 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.296500 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.300143 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.300209 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.300212 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.300219 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.300921 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.300925 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.304131 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.304196 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.304198 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.304206 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.304941 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.304945 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.308136 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.308200 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.308202 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.308211 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.308953 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.308957 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.312152 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.312288 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.312291 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.312299 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.312564 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.312567 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.316334 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.320108 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.322697 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.322701 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.322709 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.325279 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.325382 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.325387 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.328171 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.332147 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.332261 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.332265 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.332273 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.332485 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.332504 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.333265 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.333267 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.333275 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.333607 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.333610 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.334286 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.334288 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.334311 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.334628 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.334631 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.335309 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.335311 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.335318 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.335645 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.335647 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.336125 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.336259 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.336261 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.336268 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.336539 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.336542 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.340124 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.340212 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.340214 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.340421 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.341161 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.341165 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.344133 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.344189 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.344192 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.344201 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.344515 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.344518 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.348153 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.348235 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.348240 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.348257 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.348597 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.348600 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.352149 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.352283 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.352285 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.352293 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.360176 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.360217 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.360400 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.360404 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.360553 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.360555 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.360564 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.360630 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.360632 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.360640 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.361645 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.361649 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.361934 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.361937 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.364134 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.364200 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.364203 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.364211 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.364911 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.364915 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.368133 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.368196 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.368199 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.368207 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.369026 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.369031 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.372126 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.372179 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.372181 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.372189 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.372858 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.372863 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.376126 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.376207 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.376210 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.376217 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.376861 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.376865 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.380111 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.380152 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.380154 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.380304 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.380588 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.380591 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.384153 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.384203 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.384205 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.384213 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.384820 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.384824 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.388179 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.388659 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.388662 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.388670 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.389019 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.389023 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.392203 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.392304 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.392307 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.392315 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.393027 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.393080 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.396116 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.396158 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.396161 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.396168 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.396473 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.396477 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.400115 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.400176 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.400178 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.400186 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.400422 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.400426 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.404108 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.404169 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.404172 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.404180 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.404429 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.404432 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.408114 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.408184 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.408186 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.408194 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.408615 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.408618 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.412141 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.412220 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.412222 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.412230 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.412671 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.412675 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.416110 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.416153 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.416156 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.416163 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.416473 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.416476 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.420106 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.420175 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.420177 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.420185 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.420666 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.420670 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.424389 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.427132 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.427135 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.427144 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.427470 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.427474 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.428122 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.428167 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.428169 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.428177 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.428416 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.428420 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.432145 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.432187 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.432190 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.432197 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.432425 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.432429 info [ep_to_pipeRef] pipe 2 on interface 0 matches
+libusb: 2409.436113 info [darwin_async_io_callback] an async io operation has completed
+libusb: 2409.436190 info [op_handle_events] checking fd 4 with revents = 0
+libusb: 2409.436192 info [op_handle_events] checking fd 6 with revents = 1
+libusb: 2409.436200 info [darwin_handle_callback] handling isoc completion with kernel status -536870169
+libusb: 2409.436462 info [ep_to_pipeRef] converting ep address 0x82 to pipeRef and interface
+libusb: 2409.436465 info [ep_to_pipeRef] pipe 2 on interface 0 matches
