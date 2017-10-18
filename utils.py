@@ -1,4 +1,6 @@
 #! /usr/local/bin/python
+
+import os
 import sys
 import random
 from bisect import bisect
@@ -15,7 +17,6 @@ def weighted_choice(choices):
     x = random.random() * total
     i = bisect(cum_weights, x)
     return values[i]
-
 
 
 def shoot(line, color=None, output=sys.stdout):
@@ -35,3 +36,17 @@ def shoot(line, color=None, output=sys.stdout):
         output.write(colored(line, 'white'))
     else:
         output.write(colored(line, 'blue'))
+
+
+def shoot_file(fname=None, color=None):
+    if color is None:
+        color = random.choice(['green', 'blue', 'white'])
+    if fname is None:
+        fname = random.choice(
+            [f for f in os.listdir('.') if os.path.isfile(f)]
+            )
+    with open(fname, 'r') as f:
+        for l in f.readlines():
+            shoot(l, color=color)
+        shoot('\n')
+        f.close()

@@ -3,7 +3,7 @@
 import os
 import time
 
-from utils import shoot, weighted_choice, random
+from utils import shoot, shoot_file, weighted_choice, random
 
 
 def get_stat(data, labels):
@@ -36,17 +36,6 @@ def shoot_table():
         time.sleep(0.1)
     time.sleep(random.random()*2)
     shoot('\n\n')
-
-
-def shoot_file():
-    files = [f for f in os.listdir('.') if os.path.isfile(f)]
-    file_ = random.choice(files)
-    color = random.choice(['green', 'blue', 'white'])
-    with open(file_, 'r') as f:
-        for l in f.readlines():
-            shoot(l, color=color)
-        shoot('\n')
-        f.close()
 
 
 fname = 'stderr.log'
