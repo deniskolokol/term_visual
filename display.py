@@ -38,7 +38,7 @@ def shoot_table():
     shoot('\n\n')
 
 
-fname = 'stderr.log'
+fname = 'osceleton.tra'
 i = 0
 while True:
     try:
@@ -59,7 +59,7 @@ while True:
         if weighted_choice([(True, 1), (False, 9)]):
             shoot('\n')
 
-            # occasionally output line breaks
+            # occasionally output table
             if weighted_choice([(True, 2), (False, 8)]):
                 shoot_table()
 
