@@ -1,10 +1,15 @@
 #!/usr/local/bin/python
 # -*- coding: utf-8 -*-
 
+import os
+import re
 import time
 import random
 from utils import shoot, random, weighted_choice, shoot_file
 
+
+fnames = [f for f in os.listdir('.')
+          if os.path.isfile(f) and not re.match('^ds[0-9]+.txt$', f)]
 
 with open('osceleton.tra', 'r+') as f:
     lines = f.readlines()
@@ -25,7 +30,7 @@ while True:
 
     # occasionally output the whole random file from the current dir
     if weighted_choice([(True, 0.1), (False, 9.9)]):
-        shoot_file()
+        shoot_file(fname=random.choice(fnames), color='white')
         freeze = random.uniform(0.2, 0.8)
 
     time.sleep(freeze)
