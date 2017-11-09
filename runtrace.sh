@@ -1,10 +1,9 @@
 #!/bin/bash
 
-tmux new-session -d './fakinect.py'
-tmux split-window -h './display.py'
-tmux split-window -v 'htop -d 2'
-tmux split-window -v 'top'
+tmux new-session -d './profiler.py'
+tmux split-window -h './waver2.py'
+tmux split-window -h './waver1.py'
+tmux split-window -v './waver1.py'
 tmux select-pane -L
-tmux split-window -v './fakinect.py' # '~/Documents/OpenNI/OSCeleton/osceleton -a 192.168.1.132 -p 57120'
-tmux resize-pane -D 15
+tmux select-pane -L
 tmux -2 attach-session -d
