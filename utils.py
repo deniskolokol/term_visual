@@ -26,7 +26,11 @@ def weighted_choice(choices):
 
 def shoot(line, color=None, output=sys.stdout):
     ln = line.lower()
-    line = (line.rstrip() + '\n').encode('utf-8')
+    try:
+        line = (line.rstrip() + '\n').encode('utf-8')
+    except UnicodeDecodeError as e:
+        pass
+
     if color:
         output.write(colored(line, color))
         return
