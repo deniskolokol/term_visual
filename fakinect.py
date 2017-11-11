@@ -5,7 +5,7 @@ import os
 import re
 import time
 import random
-from utils import shoot, random, weighted_choice, shoot_file
+from utils import shoot, random, weighted_choice, shoot_file, spinning_cursor
 
 
 fnames = [f for f in os.listdir('.')
@@ -23,6 +23,9 @@ while True:
         i += 1
     except IndexError:
         i = 0
+        # clear output each time the whole trace file is out
+        os.system('clear')
+        spinning_cursor(random.random())
 
     # occasionally output line breaks
     if weighted_choice([(True, 1), (False, 9)]):

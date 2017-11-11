@@ -9,4 +9,5 @@ tmux split-window -v '~/Documents/OpenNI/OSCeleton/osceleton -a 192.168.1.132 -p
 tmux resize-pane -D 15
 tmux select-pane -R
 tmux select-pane -U
+tmux set status-style "bg=black"
 tmux -2 attach-session -d
