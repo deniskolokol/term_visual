@@ -25,12 +25,12 @@ def weighted_choice(choices):
 
 
 def shoot(line, color=None, output=sys.stdout):
-    line = line.rstrip() + '\n'
+    ln = line.lower()
+    line = (line.rstrip() + '\n').encode('utf-8')
     if color:
         output.write(colored(line, color))
         return
 
-    ln = line.lower()
     if ('error' in ln) or ('exception' in ln):
         output.write(colored(line, 'red'))
     elif 'debug' in ln:
