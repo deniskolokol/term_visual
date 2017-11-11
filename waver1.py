@@ -4,16 +4,17 @@
 import os
 import time
 import random
-import psutil
+# import psutil
 from utils import shoot, random, spinning_cursor, rand_string, weighted_choice
 
 i = 0
 curr = 0
 while True:
-    disp = (curr + min(int(psutil.cpu_percent()), 50)) / 2. # smooth it out
+    # disp = (curr + min(int(psutil.cpu_percent()), 30)) / 2. # smooth it out
+    disp = (curr + random.uniform(1, 40)) / 2. # smooth it out
     curr = disp
 
-    shoot('{0: <50}|'.format("-" * int(disp)), 'red')
+    shoot('{0: <35}|'.format("-" * int(disp)), 'red')
     time.sleep(random.random()*0.1)
     i += 1
 

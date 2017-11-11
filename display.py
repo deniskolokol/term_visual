@@ -20,8 +20,8 @@ def get_stat(data, labels):
 
 
 def shoot_table():
-    shoot("=" * 100)
-    data = [['#', 'LC', 'CCN', 'Dict', 'Dict#4', '....']]
+    shoot("=" * 80)
+    data = [['#', 'LC', 'CCN', 'Dict#4', '....']]
     labels = ['inf', 'err', 'err cri', 'warn', 'generic']
     ln = 0
     for row in get_stat(data, labels):
