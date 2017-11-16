@@ -1,7 +1,7 @@
 #!/bin/bash
 
-tmux new-session -d './fakinect.py'
-tmux split-window -h './display.py'
+tmux new-session -d 'python fakinect.py'
+tmux split-window -h 'python display.py'
 tmux split-window -v 'htop -d 2'
 # tmux split-window -v 'top'
 tmux select-pane -L
