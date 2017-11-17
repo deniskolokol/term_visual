@@ -1,31 +1,38 @@
-#!/usr/local/bin/python
 # -*- coding: utf-8 -*-
 
-"""
-Run it as:
-$ ./fakinect.py | ./listener.py
-
-In a separate pan run:
-$ python display.py
-
-Add 2 pans with htop:
-$ htop -d 2 -s PERCENT_MEM
-$ htop -d 0.5
-"""
-import sys
+import os
+import re
 import time
 import random
+from utils import shoot, random, weighted_choice, shoot_file, spinning_cursor
 
 
-with open('osceleton.trace', 'r+') as f:
+fnames = [f for f in os.listdir('.')
+          if os.path.isfile(f) and not re.match('^ds[0-9]+.txt$', f)]
+
+with open('osceleton.tra', 'r+') as f:
     lines = f.readlines()
     f.close()
 
 i = 0
 while True:
+    freeze = random.random() * 0.05
     try:
-        print >> sys.stdout, lines[i].strip()
+        shoot(lines[i])
         i += 1
     except IndexError:
         i = 0
-    time.sleep(random.random()*0.001)
+        # clear output each time the whole trace file is out
+        os.system('clear')
+        spinning_cursor(random.random())
+
+    # occasionally output line breaks
+    if weighted_choice([(True, 1), (False, 9)]):
+        shoot('\n')
+
+    # occasionally output the whole random file from the current dir
+    if weighted_choice([(True, 0.1), (False, 9.9)]):
+        shoot_file(fname=random.choice(fnames), color='white')
+        freeze = random.uniform(0.2, 0.8)
+
+    time.sleep(freeze)

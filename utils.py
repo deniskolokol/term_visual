@@ -1,10 +1,13 @@
-#! /usr/local/bin/python
-
 import os
 import sys
+import time
 import random
 from bisect import bisect
 from termcolor import colored
+from string import ascii_lowercase, digits, punctuation
+
+
+CHARS = ascii_lowercase + digits + punctuation
 
 
 def weighted_choice(choices):
@@ -20,17 +23,21 @@ def weighted_choice(choices):
 
 
 def shoot(line, color=None, output=sys.stdout):
-    line = line.rstrip() + '\n'
+    ln = line.lower()
+    try:
+        line = (line.rstrip() + '\n').encode('utf-8')
+    except UnicodeDecodeError as e:
+        pass
+
     if color:
         output.write(colored(line, color))
         return
 
-    ln = line.lower()
     if ('error' in ln) or ('exception' in ln):
         output.write(colored(line, 'red'))
     elif 'debug' in ln:
         output.write(colored(line, 'white', attrs=['bold']))
-    elif 'warning' in ln:
+    elif ('warning' in ln) or ('profile' in ln):
         output.write(colored(line, 'green'))
     elif 'info' in ln:
         output.write(colored(line, 'white'))
@@ -50,3 +57,24 @@ def shoot_file(fname=None, color=None):
             shoot(l, color=color)
         shoot('\n')
         f.close()
+
+
+def spinner():
+    while True:
+        for cursor in '|/-\\':
+            yield cursor
+
+def spinning_cursor(wait=10, output=sys.stdout):
+    spinner_ = spinner()
+    for _ in range(int(wait/0.1)):
+        output.write(spinner_.next())
+        output.flush()
+        time.sleep(0.1)
+        output.write('\b')
+
+
+def rand_string(size=12):
+    """
+    Generates quazi-unique sequence from random digits and letters.
+    """
+    return ''.join(random.choice(CHARS) for x in range(size))
