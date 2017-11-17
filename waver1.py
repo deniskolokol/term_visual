@@ -7,9 +7,11 @@ import psutil
 from utils import shoot, random, spinning_cursor, rand_string, weighted_choice
 
 i = 0
-curr = 0
 while True:
-    shoot('{0: <35}|'.format("-" * int(psutil.cpu_percent())), 'red')
+    val = int(psutil.cpu_percent())
+    attrs = None if val > 35 else ['dark']
+        
+    shoot('{0: <35}|'.format("-" * val), 'red', attrs=attrs)
     time.sleep(random.random()*0.1)
     i += 1
 

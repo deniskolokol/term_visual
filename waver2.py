@@ -10,9 +10,11 @@ curr = 0
 while True:
     disp = (curr + random.uniform(1, 40)) / 2. # smooth it out
     curr = disp
+    attrs = None if curr > 27 else ['dark']
     shoot(
         '{0: <35}'.format("-" * int(disp)) + ('%.3f' % disp),
-        'green'
+        color='white',
+        attrs=attrs
         )
     time.sleep(random.random()*0.05)
     i += 1

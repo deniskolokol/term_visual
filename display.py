@@ -2,39 +2,8 @@
 import os
 import time
 
-from utils import shoot, shoot_file, weighted_choice, random, spinning_cursor
-
-
-def get_stat(data, labels):
-    # statistics
-    for row_num in range(random.randint(5, 20)):
-        data.append(
-            [random.choice(labels)] \
-            + [random.randint(0, 2000) for i in range(len(data[0])-2)]
-            + [random.random()*random.randint(0, 100)]
-            )
-    col_width = max(len(str(word)) for row in data for word in row) + 2  # padding
-    for rw in data:
-        yield "".join(str(word).ljust(col_width) for word in rw)
-
-
-def shoot_table():
-    shoot("=" * 80)
-    data = [['#', 'LC', 'CCN', 'Dict#4', '....']]
-    labels = ['inf', 'err', 'err cri', 'warn', 'generic']
-    ln = 0
-    for row in get_stat(data, labels):
-        if ln == 0:
-            shoot(row, color='green')
-        else:
-            if 'err cri' in row:
-                shoot(row, color='red')
-            else:
-                shoot(row, color='white')
-        ln += 1
-        time.sleep(0.1)
-    time.sleep(random.random()*2)
-    shoot('\n\n')
+from utils import shoot, shoot_file, shoot_table, \
+                  weighted_choice, random, spinning_cursor
 
 
 with open('osceleton.tra', 'r+') as f:

@@ -37,15 +37,21 @@ import optparse
 import OSC
 import RPi.GPIO as GPIO
 
+from utils import shoot
+
 
 def send_osc(client, msg):
     msg.setAddress("/action")
     msg.extend(['event', 1])
     try:
         client.send(msg)
+        shoot('[..]')
     except OSC.OSCClientError as err:
-        print >> sys.stderr, "%s OSC.OSCClientError %s\n" % (
-            datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f'), err
+        shoot(
+            "%s OSC.OSCClientError %s\n" % (
+                datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f'), err
+                ),
+            output=sys.stderr
             )
 
 
@@ -66,6 +72,7 @@ def main(opts):
         if state != GPIO.input(pin):
             state = GPIO.input(pin)
             send_osc(client, oscmsg)
+            
         time.sleep(0.2)
 
     GPIO.cleanup()
