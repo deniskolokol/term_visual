@@ -1,6 +1,10 @@
 #!/usr/bin/python
 
 """
+on RPI:
+ssh pi@192.168.1.131 # eth0
+ssh pi@192.168.1.104 # wlan0
+
 Deploy:
 
 $ sudo vi /lib/systemd/system/gpioswitch.service
