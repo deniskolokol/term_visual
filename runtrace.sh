@@ -1,6 +1,7 @@
 #!/bin/bash
 
 tmux new-session -d 'python profiler.py'
+tmux resize-pane -L -15
 
 tmux split-window -h 'top' # 'python switch.py --addres 192.168.1.132 --port 57120 --pin 18'
 
