@@ -12,7 +12,7 @@ while True:
     curr = disp
     attrs = None if curr > 27 else ['dark']
     shoot(
-        '{0: <35}'.format("-" * int(disp)) + ('%.3f' % disp),
+        '{0: <35}'.format("|" * int(disp)) + ('%.3f' % disp),
         color='white',
         attrs=attrs
         )

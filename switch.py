@@ -1,35 +1,5 @@
 #!/usr/bin/python
 
-"""
-on RPI:
-ssh pi@192.168.1.131 # eth0
-ssh pi@192.168.1.104 # wlan0
-
-Deploy:
-
-$ sudo vi /lib/systemd/system/gpioswitch.service
-
-Content:
-
-    [Unit]
-    Description=Simple GPIO button switch
-    
-    [Service]
-    User=pi
-    Group=pi
-    Restart=on-abort
-    ExecStart=/home/pi/switch --addres 192.168.1.132 --port 57120 --pin 18
-    
-    [Install]
-    WantedBy=multi-user.target
-    Alias=gpioswitch.service
-
-Reload sysctl daemon:
-
-    $ sudo sysctl daemon-reload
-
-"""
-
 import sys
 import time
 import datetime

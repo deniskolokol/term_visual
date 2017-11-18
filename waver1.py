@@ -3,15 +3,17 @@
 import os
 import time
 import random
-import psutil
 from utils import shoot, random, spinning_cursor, rand_string, weighted_choice
 
 i = 0
+curr = 0
 while True:
-    val = int(psutil.cpu_percent())
-    attrs = None if val > 35 else ['dark']
-        
-    shoot('{0: <35}|'.format("-" * val), 'red', attrs=attrs)
+    disp = int((curr + random.uniform(1, 35)) / 2.) # smooth it out
+    curr = disp
+
+    attrs = None if disp > 25 else ['dark']
+
+    shoot('{0: <35}'.format("|" * disp), 'white', attrs=attrs)
     time.sleep(random.random()*0.1)
     i += 1
 

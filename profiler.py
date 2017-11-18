@@ -9,8 +9,8 @@ from utils import shoot, shoot_file, random, spinning_cursor
 
 
 PATT = re.compile('^ds[0-9]+.txt$')
-fnames = [fname for fname in os.listdir('.')
-          if os.path.isfile(fname) and not PATT.match(fname)]
+fnames = [fn for fn in os.listdir('.')
+          if os.path.isfile(fn) and not PATT.match(fn)]
 
 def shoot_unit():
     os.system('clear')
@@ -20,7 +20,7 @@ def shoot_unit():
             'div': "-" * len(fname),
             'name': fname
             },
-        color='green'
+        color='red'
         )
     spinning_cursor(random.random()*5)
     with open(fname, 'r') as f:
@@ -45,7 +45,7 @@ while True:
     try:
         shoot_unit()
     except Exception as e:
-        shoot("[exception] %s" % e)        
+        shoot("[exception] %s" % e)
 
     shoot("\n\n")
     time.sleep(random.random()*1.5)
