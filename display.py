@@ -5,12 +5,11 @@ import time
 from utils import shoot, shoot_file, shoot_table, \
                   weighted_choice, random, spinning_cursor
 
-
-with open('osceleton.tra', 'r+') as f:
+fname = 'osceleton.trace'
+with open(fname, 'r+') as f:
     lines = f.readlines()
     f.close()
 
-fname = 'osceleton.tra'
 i = 0
 while True:
     freeze = random.random()*0.3

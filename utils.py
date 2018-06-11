@@ -53,8 +53,12 @@ def shoot_file(fname=None, color=None):
             [f for f in os.listdir('.') if os.path.isfile(f)]
             )
     with open(fname, 'r') as f:
-        for l in f.readlines():
-            shoot(l, color=color)
+        count = 0
+        for ln in f.readlines():
+            count += 1
+            ln = "%-3d    %s" % (count, ln)
+            shoot(ln, color=color)
+            time.sleep(0.05)
         shoot('\n')
         f.close()
 
