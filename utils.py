@@ -46,12 +46,18 @@ def shoot(line, color=None, output=sys.stdout, attrs=None):
 
 
 def shoot_file(fname=None, color=None):
-    if color is None:
-        color = random.choice(['blue', 'white', 'red'])
     if fname is None:
         fname = random.choice(
             [f for f in os.listdir('.') if os.path.isfile(f)]
             )
+    if color is None:
+        # do not allow big files to be displayed in color
+        statinfo = os.stat(fname)
+        if statinfo.st_size <= 10000:
+            color = random.choice(['blue', 'white', 'red'])
+        else:
+            color = 'white'
+
     with open(fname, 'r') as f:
         count = 0
         for ln in f.readlines():
@@ -112,3 +118,30 @@ def rand_string(size=12):
     Generates quazi-unique sequence from random digits and letters.
     """
     return ''.join(random.choice(CHARS) for x in range(size))
+
+
+def wait_key():
+    """
+    Wait for a key press on the console and return it.
+    """
+    result = None
+    if os.name == 'nt':
+        import msvcrt
+        result = msvcrt.getch()
+    else:
+        import termios
+        fd = sys.stdin.fileno()
+
+        oldterm = termios.tcgetattr(fd)
+        newattr = termios.tcgetattr(fd)
+        newattr[3] = newattr[3] & ~termios.ICANON & ~termios.ECHO
+        termios.tcsetattr(fd, termios.TCSANOW, newattr)
+
+        try:
+            result = sys.stdin.read(1)
+        except IOError:
+            pass
+        finally:
+            termios.tcsetattr(fd, termios.TCSAFLUSH, oldterm)
+
+    return result
