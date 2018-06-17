@@ -13,16 +13,17 @@ fnames = [fn for fn in os.listdir('.')
 
 def shoot_unit():
     os.system('clear')
-    fname = relpath(random.choice(fnames))
+    fname = random.choice(fnames)
+    path = relpath(fname)
     shoot(
         "%(div)s\n%(name)s\n%(div)s\n" % {
-            'div': "-" * len(fname),
-            'name': fname
+            'div': "-" * len(path),
+            'name': path
             },
         color='blue'
         )
     spinning_cursor(random.random()*5)
-    with open(fname, 'r') as f:
+    with open(path, 'r') as f:
         shoot_file(fname, 'white')
         shoot("\n")
         spinning_cursor(random.random()*5)

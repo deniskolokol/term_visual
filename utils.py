@@ -56,8 +56,8 @@ def shoot_file(fname=None, color=None):
         fname = random.choice([
             f for f in os.listdir(settings.BASE_DIR)
             if os.path.isfile(f) and f not in exclude_files])
-        fname = relpath(fname)
 
+    fname = relpath(fname)
     if color is None:
         # do not allow big files to be displayed in color
         statinfo = os.stat(fname)
