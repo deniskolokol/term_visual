@@ -8,14 +8,18 @@ from subprocess import Popen, PIPE
 import settings
 
 
+def clean_screen():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+
+clean_screen()
+
 srv_conn = (settings.OSC_LISTEN_ADDRESS, settings.OSC_LISTEN_PORT)
 SERVER = OSCServer(srv_conn)
 SERVER.timeout = settings.OSC_LISTENER_TIMEOUT
 print "\n[>] Instantiated server: {}:{}".format(*srv_conn)
 
-server_run = True
-
-
+oscserver_run = True
 
 # Add a method `handle_timeout` to an instance of OSCServer.
 #
@@ -30,17 +34,9 @@ def handle_timeout(self):
 SERVER.handle_timeout = types.MethodType(handle_timeout, SERVER)
 
 
-def report(path, tags, args, source):
-    print("[>] OSC msg: path {}, tags: {}, args: {}, source: {}".format(
-        path, tags, args, source))
-
-
 def quit_callback(path, tags, args, source):
-    process_run.kill()
-    report(path, tags, args, source)
-
-    global server_run
-    server_run = False
+    global oscserver_run
+    oscserver_run = False
 
 
 def user_callback(path, tags, args, source):
@@ -50,8 +46,6 @@ def user_callback(path, tags, args, source):
     :args: OSCMessage with data.
     :source: where the message came from.
     """
-    report(path, tags, args, source)
-
     global process_run
     process_run = Popen('./runtrace.sh', stdout=PIPE, stderr=PIPE, shell=True)
 
@@ -63,29 +57,20 @@ SERVER.addMsgHandler("/stop", quit_callback)
 class KeyboardInterruptError(Exception):
     pass
 
-def f(x):
-    try:
-        time.sleep(x)
-        return x
-    except KeyboardInterrupt:
-        raise KeyboardInterruptError()
-
 def process_frame():
     SERVER.timed_out = False
     while not SERVER.timed_out:
         SERVER.handle_request()
 
 
-while server_run:
+while oscserver_run:
     try:
         process_frame()
         time.sleep(0.1)
     except KeyboardInterrupt:
-        server_run = False
+        oscserver_run = False
 
-print "\n[>] Stopping processes"
+
 process_stop = Popen(['tmux', 'kill-server'], stdout=PIPE, stderr=PIPE, shell=True)
-process_stop.kill()
-
-print "[>] Closing server"
 SERVER.close()
+clean_screen()
