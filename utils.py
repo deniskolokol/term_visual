@@ -6,8 +6,13 @@ from bisect import bisect
 from termcolor import colored, cprint
 from string import ascii_lowercase, digits, punctuation
 
+import settings
 
 CHARS = ascii_lowercase + digits + punctuation
+
+
+def relpath(*x):
+    return os.path.join(settings.BASE_DIR, *x)
 
 
 def weighted_choice(choices):
@@ -46,10 +51,13 @@ def shoot(line, color=None, output=sys.stdout, attrs=None):
 
 
 def shoot_file(fname=None, color=None):
+    exclude_files = ['osceleton.trace']
     if fname is None:
-        fname = random.choice(
-            [f for f in os.listdir('.') if os.path.isfile(f)]
-            )
+        fname = random.choice([
+            f for f in os.listdir(settings.BASE_DIR)
+            if os.path.isfile(f) and f not in exclude_files])
+
+    fname = relpath(fname)
     if color is None:
         # do not allow big files to be displayed in color
         statinfo = os.stat(fname)

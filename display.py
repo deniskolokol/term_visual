@@ -4,8 +4,9 @@ import time
 
 from utils import shoot, shoot_file, shoot_table, \
                   weighted_choice, random, spinning_cursor
+from utils import relpath
 
-fname = 'osceleton.trace'
+fname = relpath('osceleton.trace')
 with open(fname, 'r+') as f:
     lines = f.readlines()
     f.close()

@@ -1,3 +1,7 @@
+from os import path
+
+BASE_DIR = path.dirname(path.abspath(__file__))
+
 OSC_LISTEN_ADDRESS = '' # listen to all
 OSC_LISTEN_PORT = 7110
 OSC_LISTENER_TIMEOUT = 0
