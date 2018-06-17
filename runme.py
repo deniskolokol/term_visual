@@ -5,11 +5,11 @@ import time
 from OSC import OSCServer
 from subprocess import Popen, PIPE
 
-SERVER_ADDRESS = "192.168.1.106" # XXX -> settings.py
-SERVER_PORT = 7110
-SERVER_TIMEOUT = 0
-SERVER = OSCServer((SERVER_ADDRESS, SERVER_PORT))
-SERVER.timeout = SERVER_TIMEOUT
+import settings
+
+
+SERVER = OSCServer((settings.OSC_LISTEN_ADDRESS, settings.OSC_LISTEN_PORT))
+SERVER.timeout = settings.OSC_LISTENER_TIMEOUT
 server_run = True
 
 
