@@ -5,7 +5,7 @@ import time
 from OSC import OSCServer
 from subprocess import Popen, PIPE
 
-SERVER_ADDRESS = "localhost"
+SERVER_ADDRESS = "192.168.1.106" # XXX -> settings.py
 SERVER_PORT = 7110
 SERVER_TIMEOUT = 0
 SERVER = OSCServer((SERVER_ADDRESS, SERVER_PORT))

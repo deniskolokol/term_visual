@@ -14,7 +14,7 @@ tmux split-window -v 'python waver1.py'
 # middle panel: OSC module (bottom)
 tmux select-pane -L
 # eth0:
-tmux split-window -h 'python switch.py --addres 192.168.1.132 --port 57120 --pin 18'
+tmux split-window -v 'python switch.py --addres 192.168.1.132 --port 57120 --pin 18'
 # wlan:
 # tmux split-window -v 'python switch.py --addres 192.168.1.102 --port 57120 --pin 18'
 tmux select-pane -U
