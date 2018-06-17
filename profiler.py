@@ -5,8 +5,7 @@ import re
 import time
 import random
 import cProfile
-from utils import shoot, shoot_file, random, spinning_cursor
-
+from utils import shoot, shoot_file, random, spinning_cursor, relpath
 
 PATT = re.compile('^ds[0-9]+.txt$')
 fnames = [fn for fn in os.listdir('.')
@@ -14,13 +13,13 @@ fnames = [fn for fn in os.listdir('.')
 
 def shoot_unit():
     os.system('clear')
-    fname = random.choice(fnames)
+    fname = relpath(random.choice(fnames))
     shoot(
         "%(div)s\n%(name)s\n%(div)s\n" % {
             'div': "-" * len(fname),
             'name': fname
             },
-        color='red'
+        color='blue'
         )
     spinning_cursor(random.random()*5)
     with open(fname, 'r') as f:

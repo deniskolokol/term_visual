@@ -7,3 +7,8 @@ Dependencies:
 
 * Python
 * tmux
+
+
+Raspberry Pi display control:
+````$ vcgencmd display_power 0````
+````$ vcgencmd display_power 1````
