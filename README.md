@@ -12,3 +12,17 @@ Dependencies:
 Raspberry Pi display control:
 ````$ vcgencmd display_power 0````
 ````$ vcgencmd display_power 1````
+
+Kill tmux server:
+````$ tmux kill-server````
+
+Disable screen-server in console:
+
+````
+$ apt-get install lightdm
+$ nano /etc/lightdm/lightdm.conf
+````
+
+in section [Seat:*] add or adjust line to say
+
+````xserver-command=X -s 0 -dpms````
