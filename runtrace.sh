@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # left panel: profiler (top)
-tmux new-session -d 'python $MOON2_VIS_DIR/profiler.py'
+tmux new-session -d 'python $MOON2_VIS_DIR/display.py -i dict_ds0.json'
 
 # middle panel: running display (top)
-tmux split-window -h 'python $MOON2_VIS_DIR/display.py'
+tmux split-window -h 'python $MOON2_VIS_DIR/display.py -i dict_ds1.json'
 
 # right panel: wavers
 tmux split-window -h 'python $MOON2_VIS_DIR/waver2.py'

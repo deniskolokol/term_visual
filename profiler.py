@@ -8,8 +8,9 @@ import cProfile
 from utils import shoot, shoot_file, random, spinning_cursor, relpath
 
 PATT = re.compile('^ds[0-9]+.txt$')
-fnames = [fn for fn in os.listdir('.')
-          if os.path.isfile(fn) and not PATT.match(fn)]
+fnames = [fn for fn in os.listdir(os.path.dirname(os.path.realpath(__file__)))
+          if not (PATT.match(fn) or fn.endswith(".pyc"))]
+print(fnames)
 
 def shoot_unit():
     os.system('clear')
