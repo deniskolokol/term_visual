@@ -11,11 +11,11 @@ from utils import relpath
 
 
 def prettify_json(stuff):
-    return json.dumps(stuff, indent=random.randint(2, 4))
+    return json.dumps(stuff, indent=random.randint(2, 8))
 
 
 def prettify_pprint(stuff):
-    return pprint.pformat(stuff, indent=random.randint(2, 4), width=80, depth=None)
+    return pprint.pformat(stuff, indent=random.randint(2, 8), width=80, depth=None)
 
 
 def main(*fnames):
