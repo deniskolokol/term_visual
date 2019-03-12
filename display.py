@@ -10,12 +10,16 @@ from utils import shoot, shoot_file, shoot_table, \
 from utils import relpath
 
 
+def rand_indent():
+    return random.choice([2, 4, 8])
+
+
 def prettify_json(stuff):
-    return json.dumps(stuff, indent=random.randint(2, 8))
+    return json.dumps(stuff, indent=rand_indent())
 
 
 def prettify_pprint(stuff):
-    return pprint.pformat(stuff, indent=random.randint(2, 8), width=80, depth=None)
+    return pprint.pformat(stuff, indent=rand_indent(), width=80, depth=None)
 
 
 def main(*fnames):
