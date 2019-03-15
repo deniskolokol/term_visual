@@ -6,7 +6,7 @@ from time import sleep
 import subprocess
 
 
-server = OSCServer(("localhost", 7110))
+server = OSCServer(("192.168.1.106", 7110))
 server.timeout = 0
 run = True
 
@@ -24,7 +24,9 @@ server.handle_timeout = types.MethodType(handle_timeout, server)
 def user_callback(path, tags, args, source):
     action = args[0]
     if action == 'kill':
-        subprocess.run(["tmux", "kill-server"])
+        subprocess.call(["tmux", "kill-server"])
+        # XXX: for Python 3 use
+        # subprocess.run(["tmux", "kill-server"])
     print("Now do something:\n{}\n{}\n{}\n{}".format(
         path, tags, args, source))
 
