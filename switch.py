@@ -10,21 +10,7 @@ try:
 except ImportError:
     pass
 
-from utils import shoot, spinner
-
-
-def log_post(msg, output=sys.stdout):
-    if msg.lower().startswith('debug'):
-        symbol = '>'
-    elif msg.lower().startswith('error'):
-        symbol = 'x'
-    elif msg.lower().startswith('warning'):
-        symbol = '!'
-    else:
-        symbol = '.'
-    shoot('[%s] %s: %s' % (
-        symbol, datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), msg),
-        output=output)
+from utils import shoot, spinner, log_post
 
 
 def send_osc(client, msg):

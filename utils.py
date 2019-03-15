@@ -2,6 +2,7 @@ import os
 import sys
 import time
 import random
+import datetime
 from bisect import bisect
 from termcolor import colored, cprint
 from string import ascii_lowercase, digits, punctuation
@@ -153,3 +154,17 @@ def wait_key():
             termios.tcsetattr(fd, termios.TCSAFLUSH, oldterm)
 
     return result
+
+
+def log_post(msg, output=sys.stdout):
+    if msg.lower().startswith('debug'):
+        symbol = '>'
+    elif msg.lower().startswith('error'):
+        symbol = 'x'
+    elif msg.lower().startswith('warning'):
+        symbol = '!'
+    else:
+        symbol = '.'
+    shoot('[%s] %s: %s' % (
+        symbol, datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), msg),
+        output=output)

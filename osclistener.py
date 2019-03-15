@@ -2,12 +2,13 @@
 
 from OSC import OSCServer
 import sys
+import optparse
 from time import sleep
 import subprocess
 
+from utils import shoot, spinner, log_post
 
-server = OSCServer(("192.168.1.106", 7110))
-server.timeout = 0
+
 run = True
 
 # this method of reporting timeouts only works by convention
@@ -16,9 +17,7 @@ run = True
 def handle_timeout(self):
     self.timed_out = True
 
-# funny python's way to add a method to an instance of a class
 import types
-server.handle_timeout = types.MethodType(handle_timeout, server)
 
 
 def user_callback(path, tags, args, source):
@@ -36,11 +35,8 @@ def quit_callback(path, tags, args, source):
     global run
     run = False
 
-server.addMsgHandler("/user", user_callback)
-server.addMsgHandler( "/quit", quit_callback )
 
-
-def each_frame():
+def each_frame(server):
     """User script that's called by the game engine every frame"""
     # clear timed_out flag
     server.timed_out = False
@@ -49,8 +45,29 @@ def each_frame():
         server.handle_request()
 
 
-while run:
-    sleep(1)
-    each_frame()
+def main(opts):
+    server = OSCServer((opts.ip_addres, int(opts.port)))
+    server.handle_timeout = types.MethodType(handle_timeout, server)
+    server.addMsgHandler("/user", user_callback)
+    server.addMsgHandler("/quit", quit_callback)
+    log_post('INFO: listening on to %s:%s' % (opts.ip_addres, opts.port))
+    spinner_ = spinner()
+    while run:
+        sleep(1)
+        each_frame(server)
 
-server.close()
+    server.close()
+
+
+if __name__ == '__main__':
+    cmdparser = optparse.OptionParser(usage="usage: %prog [OPTIONS]")
+    cmdparser.add_option(
+        "-a", "--addres", action="store", dest="ip_addres", default='127.0.0.1',
+        help="IP address of the receiver [default \'%default\']"
+        )
+    cmdparser.add_option(
+        "-p", "--port", action="store", dest="port", default=57120,
+        help="IP port of the receiver [default \'%default\']"
+        )
+    opts, args = cmdparser.parse_args()
+    main(opts)
