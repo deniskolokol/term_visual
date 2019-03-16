@@ -26,6 +26,8 @@ def user_callback(path, tags, args, source):
         subprocess.call(["tmux", "kill-server"])
         # XXX: for Python 3 use
         # subprocess.run(["tmux", "kill-server"])
+    elif action == 'logout':
+        subprocess.call(["logout"])
     log_post("DEBUG: received {} from {}: tags {}; args {}".format(path, source, tags, args))
 
 
