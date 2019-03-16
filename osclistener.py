@@ -23,11 +23,14 @@ import types
 def user_callback(path, tags, args, source):
     action = args[0]
     if action == 'kill':
+        # kill existing visuals
         subprocess.call(["tmux", "kill-server"])
+        # and start a listener to listen to eventual restart signal
+        subprocess.call(["python", "osclistener.py", "--addres", "192.168.1.106", "--port", "7110"])
         # XXX: for Python 3 use
         # subprocess.run(["tmux", "kill-server"])
     elif action == 'restart':
-        subprocess.call(["$MOON2_VIS_DIR/runtrace.sh"])
+        subprocess.call(["runtrace.sh"])
     log_post("DEBUG: received {} from {}: tags {}; args {}".format(path, source, tags, args))
 
 
