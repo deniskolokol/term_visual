@@ -52,8 +52,12 @@ def main(opts):
     log_post('INFO: listening on to %s:%s' % (opts.ip_addres, opts.port))
     spinner_ = spinner()
     while run:
-        sleep(1)
         each_frame(server)
+
+        sys.stdout.write(spinner_.next())
+        sys.stdout.flush()
+        sleep(0.5)
+        sys.stdout.write('\b')
 
     server.close()
 
