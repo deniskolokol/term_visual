@@ -9,26 +9,26 @@ tmux split-window -h 'python $MOON2_VIS_DIR/display.py -i $MOON2_VIS_DIR/dict_ds
 # right panel: wavers
 tmux split-window -h 'python $MOON2_VIS_DIR/waver2.py'
 tmux split-window -v 'python $MOON2_VIS_DIR/waver1.py'
-tmux split-window -v 'python $MOON2_VIS_DIR/waver1.py'
+tmux split-window -v 'python $MOON2_VIS_DIR/waver2.py'
 
 # middle panel: OSC module (bottom)
 tmux select-pane -L
 # eth0:
 tmux split-window -v 'python $MOON2_VIS_DIR/switch.py --addres 192.168.1.132 --port 57120 --pin 18'
-tmux split-window -v 'python $MOON2_VIS_DIR/osclistener.py --addres 192.168.1.131 --port 7110'
+# tmux split-window -v 'python $MOON2_VIS_DIR/osclistener.py --addres 192.168.1.131 --port 7110'
 # wlan:
 # tmux split-window -v 'python $MOON2_VIS_DIR/switch.py --addres 192.168.1.102 --port 57120 --pin 18'
 # tmux split-window -v 'python $MOON2_VIS_DIR/osclistener.py --addres 192.168.1.106 --port 7110'
 tmux resize-pane -D 10
 tmux select-pane -U
 tmux select-pane -U
-tmux resize-pane -D 15
+tmux resize-pane -D 20
 tmux resize-pane -R 15
 
 # left panel: monitoring (bottom. but `top`)
 tmux select-pane -L
 tmux split-window -v 'top'
-tmux resize-pane -D 15
+tmux resize-pane -D 20
 tmux resize-pane -L 20
 tmux select-pane -R
 
