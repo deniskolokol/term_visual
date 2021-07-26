@@ -4,7 +4,9 @@ import sys
 import time
 import datetime
 import optparse
-import OSC
+
+from pythonosc import udp_client
+
 try:
     import RPi.GPIO as GPIO
 except ImportError:
@@ -13,17 +15,17 @@ except ImportError:
 from utils import shoot, spinner, log_post
 
 
-def send_osc(client, msg):
-    msg.setAddress("/action")
-    if 'event' not in msg:
-        msg.extend(['event', 1])
+def send_osc(client):
+    msg = ['event', 1]
     try:
-        client.send(msg)
+        client.send_message('/action', ['event', 1])
+
+        # client.send(msg)
         shoot('\n')
         log_post('DEBUG: sending to the client: %s' % msg)
-    except OSC.OSCClientError as err:
+    except Exception as err:
         log_post(
-            "ERROR: %s OSC.OSCClientError %s\n" % (
+            "ERROR: %s OSC Client Error %s\n" % (
                 datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f'), err
                 ),
             output=sys.stderr
@@ -32,12 +34,9 @@ def send_osc(client, msg):
 
 def main(opts):
     # connect to SuperCollider
-    client = OSC.OSCClient()
-    client.connect((opts.ip_addres, int(opts.port)))
-    oscmsg = OSC.OSCMessage()
+    client = udp_client.SimpleUDPClient(opts.ip_addres, int(opts.port))
     log_post('INFO: connected to client to %s:%s' % (
-        opts.ip_addres, opts.port
-        ))
+        opts.ip_addres, opts.port))
 
     # setup GPIO
     pin = int(opts.pin_number)
@@ -61,7 +60,7 @@ def main(opts):
 
         if state != read_state:
             state = read_state
-            send_osc(client, oscmsg)
+            send_osc(client)
 
         sys.stdout.write(spinner_.next())
         sys.stdout.flush()

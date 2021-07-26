@@ -13,12 +13,12 @@ tmux split-window -v 'python $MOON2_VIS_DIR/waver1.py'
 
 # middle panel: OSC module (bottom)
 tmux select-pane -L
-# # eth0:
-# tmux split-window -v 'python $MOON2_VIS_DIR/switch.py --addres 192.168.1.132 --port 57120 --pin 18'
-# tmux split-window -v 'python $MOON2_VIS_DIR/osclistener.py --addres 192.168.1.131 --port 7110'
+# eth0:
+tmux split-window -v 'python $MOON2_VIS_DIR/switch.py --addres 192.168.1.132 --port 57120 --pin 18'
+tmux split-window -v 'python $MOON2_VIS_DIR/osclistener.py --addres 192.168.1.131 --port 7110'
 # wlan:
-tmux split-window -v 'python $MOON2_VIS_DIR/switch.py --addres 192.168.1.102 --port 57120 --pin 18'
-tmux split-window -v 'python $MOON2_VIS_DIR/osclistener.py --addres 192.168.1.106 --port 7110'
+# tmux split-window -v 'python $MOON2_VIS_DIR/switch.py --addres 192.168.1.102 --port 57120 --pin 18'
+# tmux split-window -v 'python $MOON2_VIS_DIR/osclistener.py --addres 192.168.1.106 --port 7110'
 tmux resize-pane -D 10
 tmux select-pane -U
 tmux select-pane -U
