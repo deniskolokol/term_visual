@@ -81,7 +81,7 @@ def spinner():
 def spinning_cursor(wait=10, output=sys.stdout):
     spinner_ = spinner()
     for _ in range(int(wait/0.1)):
-        output.write(spinner_.next())
+        output.write(next(spinner_))
         output.flush()
         time.sleep(0.1)
         output.write('\b')

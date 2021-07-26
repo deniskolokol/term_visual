@@ -62,7 +62,7 @@ def main(opts):
             state = read_state
             send_osc(client)
 
-        sys.stdout.write(spinner_.next())
+        sys.stdout.write(next(spinner_))
         sys.stdout.flush()
         time.sleep(0.1)
         sys.stdout.write('\b')
